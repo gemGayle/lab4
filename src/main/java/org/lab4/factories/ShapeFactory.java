@@ -23,7 +23,7 @@ public class ShapeFactory {
         if (line == null) {
             line = new Line(color);
             shapes.put(color, line);
-            System.out.println("Створюємо новий об'єкт лыныъ кольору " + color);
+            System.out.println("Створюємо новий об'єкт лінію кольору " + color);
         }
         return line;
     }
