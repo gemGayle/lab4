@@ -23,7 +23,7 @@ public class Triangle implements IShape {
 
     @Override
     public void draw(int x, int y) {
-        System.out.println("Drawing triangle at coordinates x=" + x + " y=" + y);
+        System.out.println("Малюємо трикутник з координатами x=" + x + " y=" + y);
         line1.draw(x, y);
         line2.draw(x + 10, y);
         line3.draw(x + 5, y + 10);

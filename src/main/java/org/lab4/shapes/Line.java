@@ -17,6 +17,6 @@ public class Line implements IShape {
 
     @Override
     public void draw(int x, int y) {
-        System.out.println("Draw method with parameters x=" + x + " y=" + y + ", line color " + color);
+        System.out.println("Метод draw з параметрами x=" + x + " y=" + y + ", лінія кольору " + color);
     }
 }

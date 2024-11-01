@@ -26,7 +26,7 @@ public class Rectangle implements IShape {
 
     @Override
     public void draw(int x, int y) {
-        System.out.println("Drawing rectangle at coordinates x=" + x + " y=" + y);
+        System.out.println("Малюємо прямокутник з координатами x=" + x + " y=" + y);
         line1.draw(x, y);
         line2.draw(x + 10, y);
         line3.draw(x, y + 10);

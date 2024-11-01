@@ -16,15 +16,15 @@ public class Main {
      */
     public static void main(String[] args) {
         // Using Flyweight for lines
-        IShape redLine = ShapeFactory.getLine("red");
-        IShape greenLine = ShapeFactory.getLine("green");
+        IShape redLine = ShapeFactory.getLine("червоний");
+        IShape greenLine = ShapeFactory.getLine("зелений");
 
         // Creating a rectangle and triangle as compositions
         Rectangle rectangle = new Rectangle(redLine, greenLine, redLine, greenLine);
         Triangle triangle = new Triangle(redLine, redLine, greenLine);
 
         // Performing the drawing
-        System.out.println("Drawing primitives and compositions:");
+        System.out.println("Малюємо лінії та фігури:");
         redLine.draw(10, 20);
         rectangle.draw(50, 60);
         triangle.draw(100, 120);
