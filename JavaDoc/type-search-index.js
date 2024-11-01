@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"org.lab4.shapes","l":"IShape"},{"p":"org.lab4.shapes","l":"Line"},{"p":"org.lab4.main","l":"Main"},{"p":"org.lab4.shapes","l":"Rectangle"},{"p":"org.lab4.factories","l":"ShapeFactory"},{"p":"org.lab4.shapes","l":"Triangle"}];updateSearchResults();

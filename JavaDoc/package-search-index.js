@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"org.lab4.factories"},{"l":"org.lab4.main"},{"l":"org.lab4.shapes"}];updateSearchResults();
